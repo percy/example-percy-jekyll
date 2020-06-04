@@ -2,7 +2,7 @@ references:
   defaults: &defaults
     working_directory: ~/example-percy-jekyll
     docker:
-      - image: circleci/ruby:2.6.3-node-browsers
+      - image: circleci/ruby:2.7.1-node-browsers
 
   attach_workspace: &attach_workspace
     attach_workspace:
